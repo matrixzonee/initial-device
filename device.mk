@@ -17,13 +17,6 @@
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/d2i747/d2i747-vendor.mk)
 
-PRODUCT_PACKAGES += \
-    loki_patch \
-    loki_flash \
-    loki.sh \
-    loki_bootloaders \
-    unlocked_bootloaders
-
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2att/overlay
 ## common overlays
